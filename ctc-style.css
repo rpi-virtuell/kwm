@@ -1,0 +1,121 @@
+/*
+CTC Separate Stylesheet
+Updated: 2017-01-05 13:55:47
+*/
+.no-sidebar.content-width #main{
+	width:auto;	
+}
+#search-container{
+    bottom: 0px;
+}
+p.entry-meta{
+	display:none;
+}
+
+#site-generator{
+ display:none;
+}
+table.kwm-table { 
+	table-layout:fixed; 
+	background-color:#ddd;
+}
+table.kwm-table td { 
+	overflow: hidden; 
+}
+
+.kwm-table{
+   width:100%;
+   border-top:1px solid #c0c0c0;
+   border-right:1px solid #c0c0c0;
+   margin:0;
+}
+.kwm-table td{
+   border-left:1px solid #c0c0c0;
+   border-bottom:1px solid #c0c0c0;
+   vertical-align:top;
+}
+.kwm-table th{
+   border-left:1px solid #c0c0c0;
+   border-bottom:1px solid #c0c0c0;
+   vertical-align:top;
+   overflow:auto;
+   vertical-align:baseline;
+   color:white!important;
+   background-color:#086A87
+}
+.kwm-table-column-top{
+   width:5%;
+   font-size: 150%!important;
+   padding-left:5px;
+   text-align:left;
+}
+.kwm-table-column-sub{
+   width:5%;
+   padding-left:5px;
+   text-align:left;
+   border:0!important;
+   box-shadow:none;
+}
+.kwm-table-column-desc{
+   width:30%;
+   padding:0 5px;
+}
+.kwm-table-column-desc.maintop b{
+   font-size:120%;
+}
+.kwm-table-column-desc.maintop strong{
+   font-size:120%;
+}
+.kwm-table-column-resp{
+   width:13%;
+   padding:0 5px;
+}
+.kwm-table-column-time{
+   width:7%;
+   text-align:right;
+   padding-right:5px;
+}
+.kwm-table-column-cat{
+   width:5%;
+   text-align:center;
+}
+.kwm-table-column-rel{
+   width:35%;
+   padding-left:5px;
+}
+
+.kwm-table-column-cat i.fa {
+    font-size: xx-large;
+    text-align: center;
+    width: 100%;
+    color: blue;
+}
+.kwm-table-column-cat i.fa-handshake-o{
+	color: magenta;
+}
+.kwm-table-column-cat i.fa-comments{
+	color: blue;
+}
+.kwm-table-column-cat i.fa-reply-all{
+	color: green;
+}
+.kwm-table-column-cat i.fa-info-circle{
+	color: orange;
+}
+
+div.entry-content > p, .mce-content-body > p{
+	margin-left:5.5%;	
+	margin-bottom:0;
+	padding:5px 5px 15px 5px;
+	border-left: 1px solid #ccc;
+}
+.mce-content-body table{
+	margin-bottom:0;
+}
+
+/* Print Styles */
+@media print {
+   nav, #masthead, #comments, #supplementary{
+	   display:none;	   
+   }
+}
